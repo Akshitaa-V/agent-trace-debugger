@@ -1,0 +1,78 @@
+{
+    "run_id": "run_0317cd3d",
+    "user_query": "Tell me a joke.",
+    "created_at": "2026-06-19T09:06:55.928876",
+    "steps": [
+        {
+            "step_id": 1,
+            "timestamp": "2026-06-19T09:06:55.928876",
+            "event_type": "user_query",
+            "agent_decision": "received_user_query",
+            "tool_name": null,
+            "tool_input": null,
+            "tool_output": "Tell me a joke.",
+            "status": "success",
+            "error_message": null
+        },
+        {
+            "step_id": 2,
+            "timestamp": "2026-06-19T09:06:55.928876",
+            "event_type": "query_analysis",
+            "agent_decision": "classified_query_as_unknown",
+            "tool_name": null,
+            "tool_input": "Tell me a joke.",
+            "tool_output": {
+                "query_type": "unknown"
+            },
+            "status": "success",
+            "error_message": null
+        },
+        {
+            "step_id": 3,
+            "timestamp": "2026-06-19T09:06:55.928876",
+            "event_type": "tool_selection",
+            "agent_decision": "no_suitable_tool_found",
+            "tool_name": null,
+            "tool_input": null,
+            "tool_output": null,
+            "status": "success",
+            "error_message": null
+        },
+        {
+            "step_id": 4,
+            "timestamp": "2026-06-19T09:06:55.928876",
+            "event_type": "final_answer_generation",
+            "agent_decision": "generate_fallback_answer",
+            "tool_name": null,
+            "tool_input": null,
+            "tool_output": "No suitable tool was found for this query.",
+            "status": "success",
+            "error_message": null
+        },
+        {
+            "step_id": 5,
+            "timestamp": "2026-06-19T09:06:55.928876",
+            "event_type": "debugging_check",
+            "agent_decision": "run_debugging_rules",
+            "tool_name": null,
+            "tool_input": null,
+            "tool_output": [
+                {
+                    "type": "unsupported_query",
+                    "message": "No suitable tool was available for this query.",
+                    "step_id": 3
+                }
+            ],
+            "status": "success",
+            "error_message": null
+        }
+    ],
+    "final_answer": "No suitable tool was found for this query.",
+    "detected_issues": [
+        {
+            "type": "unsupported_query",
+            "message": "No suitable tool was available for this query.",
+            "step_id": 3
+        }
+    ]
+}

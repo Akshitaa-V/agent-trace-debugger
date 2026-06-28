@@ -1,0 +1,32 @@
+[
+  {
+    "type": "hotel",
+    "name": "Hotel A",
+    "city": "Munich",
+    "price": 110
+  },
+  {
+    "type": "hotel",
+    "name": "Hotel B",
+    "city": "Munich",
+    "price": 180
+  },
+  {
+    "type": "hotel",
+    "name": "Hotel C",
+    "city": "Berlin",
+    "price": 140
+  },
+  {
+    "type": "restaurant",
+    "name": "Restaurant A",
+    "city": "Passau",
+    "price": 25
+  },
+  {
+    "type": "restaurant",
+    "name": "Restaurant B",
+    "city": "Passau",
+    "price": 45
+  }
+]

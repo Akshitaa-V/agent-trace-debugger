@@ -1,0 +1,22 @@
+[
+  {
+    "id": "doc_1",
+    "title": "Agent Observability",
+    "content": "Agent observability means recording traces, logs, and metrics to understand how an AI agent behaves during execution."
+  },
+  {
+    "id": "doc_2",
+    "title": "Agent Debugging",
+    "content": "Agent debugging helps identify failures such as wrong tool selection, incorrect tool input, repeated tool calls, and unsupported final answers."
+  },
+  {
+    "id": "doc_3",
+    "title": "Agent Monitoring",
+    "content": "Monitoring agents in production involves tracking latency, error rates, tool-call frequency, repeated actions, and user escalations."
+  },
+  {
+    "id": "doc_4",
+    "title": "Agent Trajectories and Tracing",
+    "content": "Agent tracing records the trajectory of decisions, tool calls, tool outputs, and final responses during an agent run."
+  }
+]
